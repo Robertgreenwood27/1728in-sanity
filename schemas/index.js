@@ -1,1 +1,5 @@
-export const schemaTypes = []
+import characters from './characters';
+
+export const schemaTypes = [
+  characters
+];
