@@ -1,5 +1,8 @@
-import characters from './characters';
+// schema.js or wherever your schemaTypes is defined
+
+import teacher from './teacher'; // import the teacher schema
 
 export const schemaTypes = [
-  characters
+  // ... other imported schemas
+  teacher // add the teacher schema here
 ];
