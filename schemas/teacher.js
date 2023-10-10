@@ -23,6 +23,9 @@ export default {
             name: 'photo',
             type: 'image',
             title: 'Photo',
+            options: {
+              hotspot: true,  // Enables the hotspot feature
+            },
           },
           {
             name: 'nickname',
