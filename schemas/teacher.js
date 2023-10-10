@@ -15,6 +15,18 @@ export default {
             title: 'Name',
           },
           {
+            name: 'slug',
+            type: 'slug',
+            title: 'Slug',
+            options: {
+              source: 'name',
+              slugify: (input) => input
+                                  .toLowerCase()
+                                  .replace(/\s+/g, '-')
+                                  .slice(0, 200),
+            },
+          },
+          {
             name: 'age',
             type: 'number',
             title: 'Age',
